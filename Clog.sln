@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clog.Tests", "Clog.Tests\Clog.Tests.csproj", "{9CF33213-E97E-4420-B51C-22D35D9D4E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clog.Model", "Clog.Model\Clog.Model.csproj", "{0FF93566-3AFB-49C4-9D8E-96C8C26A79E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clog.Data", "Clog.DataAccess\Clog.Data.csproj", "{88D4004F-3C19-43A1-8453-A45F318A3950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clog.Web", "Clog.Web\Clog.Web.csproj", "{2B997C36-605F-4BED-9FF8-A80EC62BD537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clog.Data.Contracts", "Clog.Data.Contracts\Clog.Data.Contracts.csproj", "{3489B051-B768-4463-B363-BA1DE9C8BDD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A537C0C1-FF47-4682-9DCE-795E791A4093}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF33213-E97E-4420-B51C-22D35D9D4E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF33213-E97E-4420-B51C-22D35D9D4E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF33213-E97E-4420-B51C-22D35D9D4E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF33213-E97E-4420-B51C-22D35D9D4E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF93566-3AFB-49C4-9D8E-96C8C26A79E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF93566-3AFB-49C4-9D8E-96C8C26A79E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF93566-3AFB-49C4-9D8E-96C8C26A79E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF93566-3AFB-49C4-9D8E-96C8C26A79E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D4004F-3C19-43A1-8453-A45F318A3950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D4004F-3C19-43A1-8453-A45F318A3950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D4004F-3C19-43A1-8453-A45F318A3950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D4004F-3C19-43A1-8453-A45F318A3950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B997C36-605F-4BED-9FF8-A80EC62BD537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B997C36-605F-4BED-9FF8-A80EC62BD537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B997C36-605F-4BED-9FF8-A80EC62BD537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B997C36-605F-4BED-9FF8-A80EC62BD537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3489B051-B768-4463-B363-BA1DE9C8BDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3489B051-B768-4463-B363-BA1DE9C8BDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3489B051-B768-4463-B363-BA1DE9C8BDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3489B051-B768-4463-B363-BA1DE9C8BDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

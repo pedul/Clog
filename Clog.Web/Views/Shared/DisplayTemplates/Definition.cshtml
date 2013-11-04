@@ -1,0 +1,27 @@
+﻿@model Definition
+
+<div class="logContainer panel panel-default">
+	<div class="definitionBlock">
+		<div>Define @Model.Topic</div>
+		<div>
+			@if (!string.IsNullOrWhiteSpace(Model.Definition))
+			{
+				@Model.Text
+			}
+			else
+			{
+				<span class="noAnswer">No definition has been provided.</span>
+			}
+		</div>
+	</div>
+	<div class="logFooter">
+		<div class="logTags">
+			@Html.DisplayFor(x => x.Tags)
+		</div>
+		<div class="logActions">
+			<button type="button" class="btn btn-default btn-xs editLog"><span class="glyphicon glyphicon-pencil"></span></button>
+			<button type="button" class="btn btn-default btn-xs deleteLog"><span class="glyphicon glyphicon-trash"></span></button>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>

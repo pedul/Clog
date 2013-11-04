@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>@ViewBag.Title</title>
+
+		@Styles.Render("~/bundles/css")
+	</head>
+	<body>
+		<div id="container">
+			<div id="topBar">
+				<button id="register" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-user"></span> register</button>
+				<button id="sign-in" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-user"></span> sign in</button>
+				<button id="sign-out" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-user"></span> sign out</button>
+				@*<span>sign out</span>*@
+			</div>
+			<div id="header">
+				<h2>Everything I Know</h2>
+			</div>
+			<div id="menu">
+				<div id="menuActions">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						Add new ... <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+						<li><a href="#">Question and Answer</a></li>
+						<li><a href="#">Definition</a></li>
+						<li><a href="#">Blog Post</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+			<div id="content">
+				
+				@RenderBody()
+
+				@Scripts.Render("~/bundles/js")
+				@RenderSection("scripts", required: false)
+			</div>
+		</div>
+	</body>
+</html>
